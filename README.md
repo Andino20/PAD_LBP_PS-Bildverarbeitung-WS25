@@ -1,4 +1,4 @@
-# PAD_LBP_PS-Bildverarbeitung-WS25
+# Presentation Attack Detection using LBP
 Evaluating a presentation attack detection system for fingerprint sensors using local binary patterns feature extraction.
 
 [Exercise](https://www.cosy.sbg.ac.at/~uhl/BVA25.html)
