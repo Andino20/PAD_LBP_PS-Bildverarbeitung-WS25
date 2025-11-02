@@ -1,0 +1,21 @@
+[project]
+name = "fingerprint"
+version = "0.1.0"
+description = "Fingerprint image analysis and classification tools"
+authors = [{ name = "Felix Kipman", email = "felix.kipman@stud.plus.ac.at" }, { name = "Andreas Schlager", email = "andreas.schlager@stud.plus.ac.at" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "scikit-image"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
